@@ -1,0 +1,23 @@
+{% extends "index.html" %}
+{% block content %}
+<div class="container my-5">
+    <h2>Top Government BTech Colleges in AP</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr><th>College</th><th>Exam</th><th>Fees</th><th>Seats</th></tr>
+            </thead>
+            <tbody>
+                {% for college in colleges %}
+                <tr>
+                    <td>{{ college.name }}</td>
+                    <td>{{ college.exam }}</td>
+                    <td>{{ college.fees }}</td>
+                    <td>{{ college.seats }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
