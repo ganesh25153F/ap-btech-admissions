@@ -52,10 +52,10 @@ def home():
             <table class="table table-striped">
                 <thead><tr><th>College</th><th>Exam</th><th>Eligibility</th><th>Fees</th></tr></thead>
                 <tbody>
-                    <tr><td>NIT Andhra Pradesh</td><td>JEE Main</td><td>75% PCM</td><td>₹1.47L</td></tr>
-                    <tr><td>Andhra University</td><td>AP EAMCET</td><td>60% PCM</td><td>₹1.4L</td></tr>
-                    <tr><td>IIITDM Kurnool</td><td>JEE Main</td><td>75% PCM</td><td>Varies</td></tr>
-                    <tr><td>JNTUK Kakinada</td><td>AP EAMCET</td><td>60% PCM</td><td>₹80K-1L</td></tr>
+                    <tr><td>Narayana Engineering College Gudur</td><td>AP EAMCET</td><td>75% PCM</td><td>₹1.47L</td></tr>
+                    <tr><td>Narayana Engineering college Nellore</td><td>AP EAMCET</td><td>60% PCM</td><td>₹1.4L</td></tr>
+                    <tr><td>SV University</td><td>JEE Main</td><td>75% PCM</td><td>Varies</td></tr>
+                    <tr><td>JNTUK Ananthapur</td><td>AP EAMCET</td><td>60% PCM</td><td>₹80K-1L</td></tr>
                 </tbody>
             </table>
         </div>
